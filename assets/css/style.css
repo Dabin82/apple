@@ -1,29 +1,29 @@
 
 /* container */
-.container {width: 1000px; margin: 0 auto;}
+.container {width: 1000px; margin: 0 auto; background: #ccc;}
 
 /* row */
 .row {position: relative; margin: 0 20px; }
 
 /* header */
 #header {
-    height: 100px;
+    height: 100px; background: #ddd;}
 }
 #header .head_date {
-    font-style: normal;
+    
     font-weight: 600;
     font-size: 12px;
-    line-height: 20px;
-    color: #A8A8AA;
+    line-height: 14px;
+    color: #A8A8A8;
     letter-spacing: -0.24px;
     padding-top: 30px;
     display: block;
 }
 #header .head_title {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 32px;
-    color: #000;
-    font-family: "SF Display";
+    line-height: 40px;
+    padding-top: 20px;
 }
 #header .head_id {
     position: absolute; right: 0; bottom: 10px;
@@ -35,7 +35,7 @@
     color: #fff;
     font-size: 18px;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #A4A9B5 0%, #898E99 100%), #9497A5;
+    background: linear-gradient(180deg, #A4A9B5 0%, rgba(164, 169, 181, 0) 100%), #C4C4C4;
 }
 
 /* music */
